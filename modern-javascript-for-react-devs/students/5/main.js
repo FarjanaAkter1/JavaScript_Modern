@@ -31,8 +31,6 @@ const countNumbers = (array) => {
     // TODO...
     return countNumbers;
 }
-
-
 //*******************call your excercise  test case here */
 const main = async () => {
     ex1();
