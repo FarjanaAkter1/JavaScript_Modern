@@ -165,11 +165,20 @@ maxString = max;
 console.log(longestString(array));
 
 
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////exercise 7
+let n = [1, 3, 6, 3, 6, 10];
+const sort =(n) =>{
+    
 
+    const sortArr = n.sort(function(a, b) {
+      return a - b;
+    });
 
-
-
-
-
-
+    return sortArr;
+    
+}
+console.log(sort(n));
+    
+////////////////////////////////////////////////Exercise 8
+    
 
