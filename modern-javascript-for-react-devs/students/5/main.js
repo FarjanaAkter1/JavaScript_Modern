@@ -1,7 +1,8 @@
 //
 // File: main.js
 // Date: 5/24/2022
-// 
+
+
 
 /*const ex1 = () => {
     //const array = [1, '2', 3, 'test', 1.2];
@@ -169,7 +170,6 @@ console.log(longestString(array));
 let n = [1, 3, 6, 3, 6, 10];
 const sort =(n) =>{
     
-
     const sortArr = n.sort(function(a, b) {
       return a - b;
     });
@@ -180,5 +180,21 @@ const sort =(n) =>{
 console.log(sort(n));
     
 ////////////////////////////////////////////////Exercise 8
-    
+  
+let words = "Count the words in this string";
 
+const countWords =(str) => {
+
+  
+  let strings= str.split(" ").length;
+  return strings
+  
+}
+
+console.log(countWords(words));
+
+
+  
+  
+  
+  
