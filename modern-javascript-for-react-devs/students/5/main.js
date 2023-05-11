@@ -31,18 +31,17 @@
 
 }*/
 
-const ex5 = () => {
+/*const ex5 = () => {
     //console.log(str.split("this").length-1)
     console.log("this appears: "+ (str.split( "this" ).length-1) + " times. ")
 
-}
-
+}*/
 
 
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-// Your functions here...
+// Your functions here.../////////////////////////////////////////////////////////////////////////////
 //ex1
 
 /*const countNumbers = (array) => {
@@ -102,8 +101,11 @@ if (newword == word){
 /////////////////////////////////////////////////////////////////////////////////////////  Exercise 5
 
 
-let str = "today this is a this is a this is a test.";
-let x = str.split("this")
+/*let str = "today this is a this is a this is a test.";
+let x = str.split("this")*/
+
+
+
 
 
 /*const main = async () => {
@@ -123,9 +125,51 @@ const main = async () => {
 }*/
 
 
-const main = async () => {
+/*const main = async () => {
     ex5()
+}*/
+
+
+
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////Exercise 6
+
+let array = ['this', 'is', 'a', 'test', 'happy',];
+
+const longestString = (N) => {
+
+let maxString = N[0].length;
+
+let answer = N[0];
+
+for (let i = 1; i <N.length; i++) {
+
+let max = N[i].length;
+
+if (max>maxString) {
+
+ answer = N[i];
+
+maxString = max;
+
 }
-main();
+
+}
+
+ return answer;
+
+}
+
+console.log(longestString(array));
+
+
+
+
+
+
+
+
 
 
