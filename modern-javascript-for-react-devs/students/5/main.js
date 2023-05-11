@@ -25,9 +25,15 @@
 }*/
 
 
-const ex4 = () => {
+/*const ex4 = () => {
     console.log(palidrome('radar'));
    console.log(palidrome('month'));
+
+}*/
+
+const ex5 = () => {
+    //console.log(str.split("this").length-1)
+    console.log("this appears: "+ (str.split( "this" ).length-1) + " times. ")
 
 }
 
@@ -35,10 +41,9 @@ const ex4 = () => {
 
 
 
-
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // Your functions here...
-//
+//ex1
 
 /*const countNumbers = (array) => {
     let countNumbers = 0;
@@ -79,9 +84,9 @@ if (array1.length !== array2.length){
 }
 
 }*/
-///////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////// EXERCISE 4
 
-const palidrome =(word) =>{
+/*const palidrome =(word) =>{
 let newword =""
 for (let i =word.length -1; i>=0; i--){
     newword += word[i];
@@ -92,14 +97,13 @@ if (newword == word){
     return false;
 }
 
-}
+}*/
 
-  
-
-
+/////////////////////////////////////////////////////////////////////////////////////////  Exercise 5
 
 
-
+let str = "today this is a this is a this is a test.";
+let x = str.split("this")
 
 
 /*const main = async () => {
@@ -114,8 +118,13 @@ const main = async () => {
     ex3()
 }*/
 
-const main = async () => {
+/*const main = async () => {
     ex4()
+}*/
+
+
+const main = async () => {
+    ex5()
 }
 main();
 
