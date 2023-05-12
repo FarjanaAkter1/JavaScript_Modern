@@ -192,6 +192,13 @@ const countWords =(str) => {
 }
 
 console.log(countWords(words));
+/////////////////////////////////example 9
+var a = "this counts the number of words that end in s";
+const countS =() => {
+var countS = (a.match(/s/g) || []).length;
+return countS
+}
+console.log(countS(a));
 
 
   
