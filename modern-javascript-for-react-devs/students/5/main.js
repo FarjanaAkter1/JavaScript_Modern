@@ -179,6 +179,29 @@ const sort =(n) =>{
 }
 console.log(sort(n));
     
-////////////////////////////////////////////////Exercise 8
-    
+// ////////////////////////////////////////////////exercise 8
+
+let words = "Count the words in this string";
+
+const countWords =(str) => {
+
+
+  let strings= str.split(" ").length;
+  return strings
+
+}
+
+console.log(countWords(words));
+
+/////////////////////////////////////////exercise 9
+
+
+var a = "this counts the number of words that end in s";
+const countS =() => {
+var countS = (a.match(/s/g) || []).length;
+return countS
+}
+console.log(countS(a));
+
+
 
